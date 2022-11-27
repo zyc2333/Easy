@@ -1,2 +1,7 @@
 # Easy
-- public key:29k4uGyF/Umq7nvRlNQ/XcClDA5MmXllJPWVj2iGDso
+-  AAAAB3NzaC1yc2EAAAADAQABAAACAQC0+lUcyY0ci0KBHUQjU6ZazwdZ0abrkIhteireipo2hhAAvvNdCj6bHQvu8J5qz5Oh8NHVdqgU72fl7glXGABp94hoPRdaGC1WEpkZLE5Fpym2A2AOjck3jymQDmKGLmEzZl101dH7LbHDkS6y9EcrdYBJQNpk1BV1zqilXHi/NbUZ0eOGFaxwkGdmxGVwBXSW3JSlIaUmXa950Uj0ZB96E0b2Zud+HQxYohcRO9J9zmtfMdGRT7OqNzJKA8A217SxhExl3ST/JPj7KLY9FNDx1GSHEDpls0GKU0y47sU7fb8x1leml6phdZpFFP7AJlgYxQPx6PkYL+NDf8AAZ/MsY/jQgzH76TnYb7jyFs75Skl/M3AqYCtW5mtohARYmFUHBRHNJAorDbaQoR/XIucm/5n4tA1JKqpYkZxT7A/AQiLxxfgAcL9OVMIl5py+HxjBjxWXpxxNTzy6RIGv9+FUqHpJuoWorqvnIlxUorFWfAY/8g6R91QNq290AgEnVn2GK3sCx8zMHJmBEkF+scPaT+fisKCr0cEzKuQAi4TIbTsobOQHWX8y0FIOgFR9y6/vkOmwA0faQ0NAdiqvIq6X4TevuEgpZsaHwFiLglfoT/AqoJNW+gHG4MljG6It70rMPtuo9T3QxO5DLFQTdL9NRoTi7D2wNS8FZx2B8lM2rw== zyc2333@github.com
+## ssh-keygen illustration
+- -t 加/解密算法
+- -b 秘钥长度,rsa默认秘钥长度的为 2048
+- -C 注释，一般是填写用户名
+- -f 指定生成的秘钥文件名，如果不提供此参数则使用默认文件名，如rsa私钥默认文件名 ~/.ssh/id_rsa ，公钥默认文件名 ~/.ssh/id_rsa.pub
